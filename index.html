@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolateria</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <h1 class="navbar-brand m-0 section-title">Chocolateria</h1>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <li class="nav-item fw-bold">
+            <a href="#sobre-a-chocolateria" class="nav-link">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre a chocolateria
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#personalize" class="nav-link">
+              <i class="bi bi-bookmark-heart"></i>
+              Personalize
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#chocolates" class="nav-link">
+              <i class="bi bi-grid-3x2"></i>
+              Chocolates
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#presentes" class="nav-link">
+              <i class="bi bi-gift"></i>
+              Presentes
+            </a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="#fale-conosco" class="nav-link">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-chocolateria">
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/164975/NEW_Banner_departamento_desktop.jpg?v=638482628819900000" class="w-100" alt="Foto do espaço interno do restaurante">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/164607/categoria_chocolate.jpg?v=638482635351200000" class="w-100" alt="Duas taças de vinho">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/164927/categoria_dengocasa%20(1).jpg?v=638466276078000000" class="w-100" alt="Uma mesa com comida">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+      </div>
+      <div class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="https://dengo.vteximg.com.br/arquivos/departamento-presentes-banner-romantico-desktop.jpg?v=638386167457670000" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">Sobre <span class="text-colored">a chocolateria</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure fugiat eos dolor delectus possimus tempore, odio nostrum laboriosam nesciunt doloremque maiores quam ea impedit eligendi vero nemo temporibus exercitationem?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="personalize" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2 class="section-title">Personalize <span class="text-colored">seu chocolate</span></h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure fugiat eos dolor delectus possimus tempore, odio nostrum laboriosam nesciunt doloremque maiores quam ea impedit eligendi vero nemo temporibus exercitationem?
+            </p>
+            <h3 class="section-title mt-4">Monte <span class="text-colored">sua barra</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident laborum, dolore quam assumenda possimus. Veritatis, aut ratione est odit voluptas doloremque eum dolor ullam. Est omnis amet sunt in!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam accusamus repellendus, non harum tempora fuga! Eligendi porro a necessitatibus quidem provident iusto, nihil saepe odio, molestias ipsam laudantium temporibus!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatibus doloremque beatae! Aut voluptate modi est consequatur magnam? Soluta vel nemo commodi voluptatibus dolore, inventore deserunt reiciendis delectus nostrum atque.
+            </p>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-1-circle"></i> ESCOLHA O CHOCOLATE</li>
+              <ul>
+                <li>36% Ao Leite</li>
+                <li>58% Meio Amargo</li>
+                <li>65% Sem açúcar</li>
+                <li>70% Amargo</li>
+              </ul>
+              <li><i class="bi bi-2-circle"></i> PERSONALIZE SUA EMBALAGEM</li>
+              <li><i class="bi bi-3-circle"></i> FINALIZE COM UMA FITA</li>
+            </ul>
+          </div>
+          <div class="col-md-5 mt-3 mt-md-0">
+            <img src="https://dengo.vteximg.com.br/arquivos/banner-escolha.jpg?v=638025788942400000" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="chocolates" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/163333-1000-1000/dengo_chocolates_quebra_quebra_de_morango_200g.jpg?v=638200241736330000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Quebra-quebra
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/163909-1000-1000/Dengo_chocolates_dragea_de_castanha_de_caju.jpg?v=638235812672470000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Pepitas e Drágeas
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/162236-1000-1000/dengo-chocolates-barra-80g-50--1.jpg?v=637709435367500000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Barras de chocolate
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/164273-1000-1000/dengo_chocolates_caixa_de_trufas_342g.png?v=638333384405800000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Trufas e Bombons
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/162265-1000-1000/dengo-chocolates-gotas-chocolate-ao-leite-2.jpg?v=637709457743400000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Chocolate em gotas
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="https://dengo.vteximg.com.br/arquivos/ids/164457-1000-1000/dengo_chocolates_caixa_da_floresta--2-.png?v=638374662952130000" class="d-block w-100 rounded mb-2" alt="">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-star-fill"></i>
+              Caixas de chocolate
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam voluptatem soluta quisquam eos architecto quis, dignissimos modi, quasi recusandae officiis vel. Officiis debitis voluptatem dolores, sunt vitae voluptate aliquam quaerat?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentes" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Para <span class="text-colored">presentear</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-cardapio">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Romântico</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Agradecimento</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Amizade</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Aniversário</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Páscoa</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="bebidas-sem-alcool">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/163708-1000-1000/dengo_chocolates_creme_de_nibs.jpg?v=638170850764370000" alt="Coca-cola">
+                    <h5 class="text-colored fw-bold mt-2">Creme de castanhas</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164895-1000-1000/30_CaixaClassicosIntensos_Aberto.jpg?v=638460185183870000" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">Caixa de chocolates Intenso</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/163795-1000-1000/dengo_chocolates_kit_dengo_de_mae.jpg?v=638200305832500000" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">Kit Dengo de Mãe</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164774-1000-1000/dengo-corte-pingado.jpg?v=638447409764700000" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">Dengo de corte Pingado</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164795-1000-1000/3_ClassicosAoLeite_1.jpg?v=638448167334730000" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">Caixa de chocolates Clássico</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164664-1000-1000/ovo-corte-gianduia.jpg?v=638438973959470000" alt="Suco">
+                    <h5 class="text-colored fw-bold mt-2">Dengo de corte Gianduia</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="bebidas-alcoolicas">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164779-1000-1000/ovo-trio-mini-infantil.jpg?v=638447413991870000" alt="Cerveja">
+                    <h5 class="text-colored fw-bold mt-2">Trio Mini Ovos</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164798-1000-1000/5_KitClassicosDengoaoLeite_1.jpg?v=638448180372070000" alt="Vinho">
+                    <h5 class="text-colored fw-bold mt-2">Kit Clássicos</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/163546-1000-1000/dengo_chocolates_quebra_quebra_de_banana.jpg?v=638200229150370000" alt="Vinho">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164654-1000-1000/6_KitDengoemCasa_1-copiar.jpg?v=638422308690000000" alt="Vinho">
+                    <h5 class="text-colored fw-bold mt-2">Kit Dengo em Casa</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="entradas">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164272-1000-1000/dengo_chocolates_caixa_de_trufas_342g_3.png?v=638333383524570000" alt="Nome da entrada">
+                    <h5 class="text-colored fw-bold mt-2">Caixa de Trufas</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164794-1000-1000/3_ClassicosAoLeite_2.jpg?v=638448167173800000" alt="Nome da entrada">
+                    <h5 class="text-colored fw-bold mt-2">Chocolate Clássico</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164029-1000-1000/dengo_chocolates_quebra_quebra_caramelizado_200g.png?v=638285052958900000" alt="Nome da entrada">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra caramelizado</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="pratos-principais">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/162936-1000-1000/dengo-choclates-cafune-coco.png?v=638011127685930000" alt="Pizza">
+                    <h5 class="text-colored fw-bold mt-2">Cafuné de Coco</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/162953-1000-1000/CAFUNEPrancheta-18.jpg?v=638011147716770000" alt="Salmão">
+                    <h5 class="text-colored fw-bold mt-2">Cafuné de Chocolate</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164690-1000-1000/ovo-colorir.jpg?v=638439004656470000" alt="Pizza">
+                    <h5 class="text-colored fw-bold mt-2">Para colorir</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/162952-1000-1000/dengo-chocolates-quebra-quebra-de-cupuacu.png?v=638011143473200000" alt="Salmão">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/162927-1000-1000/dengo-chocolates-quebra-quebra-de-limao-e-tapioca.png?v=638200163910500000" alt="Pizza">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/162782-1000-1000/dengo-chocolates-quebra-quebra-caja-200g.png?v=637892877390400000" alt="Salmão">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/163344-1000-1000/dengo_chocolates_quebra_quebra_de_biju_200g.jpg?v=638200243986930000" alt="Salmão">
+                    <h5 class="text-colored fw-bold mt-2">Quebra-quebra</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="sobremesas">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164768-1000-1000/ovo-classico-70-cacau.jpg?v=638447393544230000" alt="Pizza">
+                    <h5 class="text-colored fw-bold mt-2">70% Cacau</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164767-1000-1000/ovo-classico-38-cacau-ao-leite.jpg?v=638447388643830000" alt="Salmão">
+                    <h5 class="text-colored fw-bold mt-2">38% Cacau</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164773-1000-1000/ovo-classico-50-cacau-plantas.jpg?v=638447407972770000" alt="Pizza">
+                    <h5 class="text-colored fw-bold mt-2">50% Cacau - Base de Plantas</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164699-1000-1000/ovo-qq-nuts.jpg?v=638439645797170000" alt="Bolo">
+                    <h5 class="text-colored fw-bold mt-2">Castanhas Caramelizadas</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164696-1000-1000/ovo-qq-cupuacu.jpg?v=638439447500200000" alt="Cupcake">
+                    <h5 class="text-colored fw-bold mt-2">Cupuaçu e Castanha de Caju</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164676-1000-1000/ovo-qq-banana.jpg?v=638438988300200000" alt="Bolo">
+                    <h5 class="text-colored fw-bold mt-2">Banana e Castanha de Caju</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164681-1000-1000/ovo-qq-coco-castanha.jpg?v=638438993430600000" alt="Cupcake">
+                    <h5 class="text-colored fw-bold mt-2">Coco com Castanha do Pará</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164671-1000-1000/ovo-qq-caramelo.jpg?v=638438983975200000" alt="Bolo">
+                    <h5 class="text-colored fw-bold mt-2">Caramelizado com Nibs e Flor de Sal</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164670-1000-1000/ovo-qq-limao.jpg?v=638438979900500000" alt="Cupcake">
+                    <h5 class="text-colored fw-bold mt-2">Limão com Tapioca</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <img class="d-block w-100" src="https://dengo.vteximg.com.br/arquivos/ids/164701-1000-1000/ovo-qq-granola-sem-acucar.jpg?v=638439651680130000" alt="Cupcake">
+                    <h5 class="text-colored fw-bold mt-2">Granola - Sem adição de açúcar</h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fale-conosco" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                <input type="text" id="nome" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                <input type="email" id="email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                <input type="tel" id="telefone" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                <textarea class="form-control" id="mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title fs-4 text-colored">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>
+                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

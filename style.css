@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #8d3604;
+}
+
+header .container h1 {
+  font-size: 48px;
+}
+
+.navbar {
+  background-color: #f39c12;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #f39c12;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler,
+#sobre-a-chocolateria,
+#chocolates,
+#fale-conosco {
+  background-color: #ffeaa7;
+}
+
+.section-title {
+  font-family: "Pacifico", cursive;
+}
+
+.text-colored {
+  color: #f39c12;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #f39c12;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 100px;
+  }
+}
